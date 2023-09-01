@@ -62,7 +62,7 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-web-devicons'
 
   -- tree-sitting
-  --use 'nvim-treesitter/nvim-treesitter'
+  use 'nvim-treesitter/nvim-treesitter'
 
   -- terminals
   use 'voldikss/vim-floaterm'
