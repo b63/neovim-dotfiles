@@ -4,6 +4,7 @@ vim.opt_global.exrc = true
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 vim.opt.guifont = "Monaco:h12"
+vim.opt.modeline = false
 
 -- loading plugsin (using packer)
 require'plugins'
