@@ -5,10 +5,10 @@ endif
 
 " General Config: {{{1
   " hide backup and swap files
-  set backupdir=.,$XDG_DATA_HOME/nvim/backup
-  set directory=.,$XDG_DATA_HOME/nvim/backup
+  set backupdir=.,$HOME/.local/state/nvim/backup
+  set directory=.,$HOME/.local/state/nvim/backup
   set noswapfile
-  set undodir=$XDG_DATA_HOME/nvim/undodir
+  set undodir=$HOME/.local/state/nvim/undodir
   set undofile
 
   set laststatus=2  " always display status line

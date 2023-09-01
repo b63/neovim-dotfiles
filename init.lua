@@ -1,9 +1,9 @@
-vim.cmd("let $CONFPATH=$XDG_CONFIG_HOME.'/nvim'")
+vim.cmd("let $CONFPATH=$HOME.'.config/nvim'")
 vim.opt_global.exrc = true
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
-vim.opt.guifont = "BlexMono Nerd Font Mono:h10"
+vim.opt.guifont = "Monaco:h12"
 
 -- loading plugsin (using packer)
 require'plugins'

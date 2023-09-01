@@ -53,12 +53,20 @@ return require('packer').startup(function(use)
   use 'nvim-lua/plenary.nvim'
   use 'nvim-telescope/telescope.nvim'
 
+  -- telescope file browser
+  use {
+    "nvim-telescope/telescope-file-browser.nvim",
+    requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+  }
+  -- icons for file browser
+  use 'nvim-tree/nvim-web-devicons'
+
   -- tree-sitting
-  use 'nvim-treesitter/nvim-treesitter'
+  --use 'nvim-treesitter/nvim-treesitter'
 
   -- terminals
   use 'voldikss/vim-floaterm'
 
   -- winhist plugin
-  use('~/.local/share/nvim/plugins/win-hist')
+  use('b63/win-hist')
 end)

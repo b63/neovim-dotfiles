@@ -78,8 +78,8 @@ command! DosToUnix e! ++ff=dos | setl ff=unix
   " <C-j> and <C-j> to scroll view up & dowm
   nnoremap <C-j> <C-e>
   nnoremap <C-k> <C-y>
-  inoremap <C-j> <esc><C-y>a
-  inoremap <C-k> <esc><C-e>a
+  "inoremap <C-j> <esc><C-y>a
+  "inoremap <C-k> <esc><C-e>a this is used for signature help with lsp
 
   "" move between buffers
   "" open next buffer in current window
